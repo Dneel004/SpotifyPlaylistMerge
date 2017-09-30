@@ -13,6 +13,9 @@ bin/
 gen/
 out/
 
+#token folder
+token/
+
 # Gradle files
 .gradle/
 build/
