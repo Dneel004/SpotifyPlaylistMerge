@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>SpotifyMergePlaylistFrontEnd</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="/style.css">
+
+  
+</head>
+
+<body>
+  
+
+<body>
+
+<div class="container-fluid">
+
+  <!--Fuck this Title-->
+  <div class="row align-items-start">
+    <div class="col">
+    </div>
+    <div class="col title">
+      <h1>Spotify Playlist Merger</h1>
+    </div>
+    <div class="col">
+    </div>
+  </div>
+
+  <!--Fuck this Playlist dropdowns-->
+  <div class="row playlist-dropdowns">
+    <div class="col">
+    </div>
+    <div id="subtitles" class="row col">
+      <div class="col">
+        <h3>From</h3>
+        <select class="dropdowns">
+          <option value="Bombass-playlist">Bombass playlist</option>
+          <option value="Rap">Rap</option>
+          <option value="Rock">Rock</option>
+          <option value="Neeeeel">Neeeeel</option>
+        </select>
+      </div>
+      <!--Merge button-->
+      <div  class="col">
+        
+        <button id="merge-button" class="fa fa-arrow-circle-right fa-5x hvr-grow" onclick="this.blur();">
+               </button> 
+        
+      </div>
+      
+      <div class="col main">
+        <h3>To</h3>
+        <select class="dropdowns">
+          <option value="Bombass-playlist">Bombass playlist</option>
+          <option value="Rap">Rap</option>
+          <option value="Rock">Rock</option>
+          <option value="Neeeeel">Neeeeel</option>
+        </select>
+      </div>
+    </div>
+    <div class="col">
+    </div>
+  </div>
+  
+  
+  <div class="center-logo">
+    <a href = "https://open.spotify.com/browse" title="Spotify">
+      <i class="fa fa-spotify fa-5x fa-cog hvr-grow" aria-hidden="true"></i>
+      
+    </a>
+  </div>
+
+  
+</div>
+  
+  <img id="slider" src="https://wallpaperscraft.com/image/people_hands_concert_music_crowd_80452_1920x1080.jpg">
+  
+  <iframe width="0" height="0" src="https://www.youtube.com/embed/YgWFqRDfNkU?list=PLAX4c2WDbctNz9f0HkEKoL44xVymDQm4z?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+  
+
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src="/socket.io/socket.io.js"></script>
+    <script  src="/index.js"></script>
+<script>
+  // var socket = io('localhost:3000');
+  // socket.on('connection', function (data) {
+  //   console.log("connected");
+  //   socket.emit('buttonPress', { my: 'data' });
+  // });
+</script>
+  
+</body>
+</html>
