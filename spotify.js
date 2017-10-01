@@ -6,7 +6,7 @@ var spotifyApi = new spotifyWebApi({
     clientSecret : 'a3a243c336c7484eb1ef37a6b1398cf1'
 });
 
-spotifyApi.setAccessToken('BQDXXZOP2BjVIS04JiUDz8537bTPN8D8h21ivlpj4OO-x0kmKmhjrW7AOpJo1bLT2Q_lm2xx6tQmGD6pfHKsoOn-jS7JuRREbV8wsSK3hL4R_-kk_b8xkZafSNTjJEWyxJGLSJvN9wOfxZQmpmTLo0-kia6z6a9W-inHGgm-Q0s6a6WXxbbmgWOe_mQR_LobV2Avn_AzTXTn5pI');
+spotifyApi.setAccessToken('BQDoaGhMECFBwv1AwSpES7BqrHw2bwJNQtmlN0N4FJOQYCKN9iOuqioij3MTT6klUUrEPQdHBakGxYVmUB1pTwFbRw9BFaLVwkGfKAB7QpikdAWUbF4ZeEBKcT7Zd1h9ZdQXoDEFpFWiWu5lf3zIC4OczZzRGIb88l2ubeCmjIeQJcX70aHqAQsmLGhdm9bEkTt2lE6hPesB3x8');
 
 
 //get songs from playlist you want to merge
