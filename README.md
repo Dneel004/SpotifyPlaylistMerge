@@ -1,4 +1,4 @@
-![tech1](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwil5tT8-8_WAhVRgSYKHUEbB_IQjRwIBw&url=https%3A%2F%2Fhome-assistant.io%2Fcomponents%2Fmedia_player.spotify%2F&psig=AOvVaw3iaxRkSc_9ac0WVmNNHo9w&ust=1506965997734418)
+![alt text](https://home-assistant.io/images/supported_brands/spotify.png)
 
 https://devpost.com/software/spotify-playlist-merger
 
@@ -49,5 +49,5 @@ Before you use Spotify playlist merge you will have to get a new access code lik
 If you would like to add on to the project you are more than welcome too. 
 Submit those pull request!
 
-![tech](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjW_u3n-8_WAhVJbiYKHRlsACgQjRwIBw&url=https%3A%2F%2Fgiphy.com%2Fgifs%2Finternet-computer-technology-CTX0ivSQbI78A&psig=AOvVaw3QqvuEE9z1DOCLVh4eg4ks&ust=1506965936691093)
+
 
