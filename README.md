@@ -49,5 +49,5 @@ Before you use Spotify playlist merge you will have to get a new access code lik
 If you would like to add on to the project you are more than welcome too. 
 Submit those pull request!
 
-
+![](https://thumbs.gfycat.com/BetterAmpleHamster-max-1mb.gif)
 
