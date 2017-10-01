@@ -25,7 +25,7 @@ var spotifyApi = new spotifyWebApi({
     clientSecret : 'a3a243c336c7484eb1ef37a6b1398cf1'
 });
 
-spotifyApi.setAccessToken('BQB9agJdsvC-wBV2Cz9Iv_eYYspRAGCpQ6vBtEoIG8Xl9stKouBFyxwBenRs_lmE0Ru7ggk9D9csmqb3C-Ytro5jTIEo5anqaWy7LLGfs2xSvExvMhqUC6Jmciq3CZLjJsOyKByjM3eYrMpKXciHRdBEliM-Sd9g9FUSd6TGRV00gfr4-qJl6dBNj4vCXyYu8-Dd46ABr5yLrCg');
+spotifyApi.setAccessToken('BQCkhf2Tqwr1-q0tdSoKul7Jky32cOWKEK0rmO3p5Nw2Ev_d-x59TLBmPM2q9dIJvYLLTDK7mEw73iPKndbStslzH313J4utjx9t-gx1QH-yg_tB4EFBoA-Tj9uvAcNNnJjAwjad6g1izajHR_OnRgN7NeDyOzTYTOQwmY_k8gEqudNcyrWWcqIMapTE42Jcb2jCATO6T9uvut4');
 
 
 //get songs from playlist you want to merge
@@ -42,7 +42,7 @@ var playlists = [];
     console.log('Something went wrong!', err);
   });
   
-  spotifyApi.getPlaylist('1262015481', '7w0XZI3Jgm8Ta4HjI2T0Td')
+  spotifyApi.getPlaylist('1262015481', '3bQuJboL920yHdOYzP3pZt')
   .then(function(data) {
     for(i = 0; i < data.body.tracks.items.length; i++){
     //console.log('Name: ', data.body.tracks.items[i].track.name);
@@ -64,7 +64,7 @@ var playlists = [];
       setTimeout(function(){
         //console.log(playlists);
         //MERGE TO PLAYLIST
-        spotifyApi.addTracksToPlaylist('1262015481', '3bQuJboL920yHdOYzP3pZt', songList)
+        spotifyApi.addTracksToPlaylist('1262015481', '7w0XZI3Jgm8Ta4HjI2T0Td', songList)
         .then(function(data) {
           console.log('Added tracks to playlist!');
         }, function(err) {

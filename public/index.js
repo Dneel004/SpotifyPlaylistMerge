@@ -28,8 +28,8 @@ slideShow();
 //Spotify stuff starting here
 var socket = io();
 function clicker(){
-    alert('2017289');
-    console.log('hi');
+    alert('PlayList merged! Enjoy!');
+    
     socket.emit('clicked');
 }
 var mergeButton=document.getElementById('merge-button');
