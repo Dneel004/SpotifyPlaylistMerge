@@ -29,8 +29,8 @@ css3
 
 How to use Playlist Merger:
 
-1) go to a terminal and type cd C:\Users\Daniel\programming\SpotifyPlaylistMerge\token\web-api-auth-examples\authorization_code
-2) start the node file by going back to terminal and type node app.js
+1) go to a terminal and navigate to SpotifyPlaylistMerge\token\web-api-auth-examples\authorization_code
+2) start the node file by going back to terminal and type node app.js in that folder
 3) go to a web browser and go to localhost:8888
 4) click sign in, use spotify credintials, and go to where address is on the top and it should say 
    something like: http://localhost:8888/#access_token=
@@ -47,6 +47,10 @@ Now you are ready to MERGE!!!
 
 Before you use Spotify playlist merge you will have to get a new access code like in steps 1-6
 If you would like to add on to the project you are more than welcome too. 
+Things that need to be done: 
+1) automatic refresh of token
+2) when a user signs in get the playlist and put them in the scroll down menu
+3) add a spot on the website that lets the user put their spotify user name so the api knows to use their playlist,songs,etc... 
 Submit those pull request!
 
 ![](https://thumbs.gfycat.com/BetterAmpleHamster-max-1mb.gif)
